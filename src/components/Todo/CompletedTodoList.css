@@ -1,0 +1,68 @@
+.task__fallback {
+    color: rgb(1, 69, 84);
+    text-align: center;
+  }
+  
+  .allTodos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* background-color: rgb(3, 3, 3); */
+  }
+  .heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 1px solid rgb(3, 78, 113);
+    padding: 5px 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: rgb(107, 186, 255);
+  }
+  .singleTodo {
+    border-radius: 10px;
+    margin: 1rem 0rem;
+    background-color: #ececec;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15rem;
+    height: 1;
+    align-items: center;
+  }
+  .todoText_complete {
+    flex: 1;
+    color: rgb(82, 79, 79);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: line-through;
+  }
+  .todoText_red {
+    flex: 1;
+    color: rgb(254, 6, 6);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .button {
+    border: none;
+    background-color: #ffc5c5;
+    padding: 10px;
+    color: #601a1a;
+    border-radius: 10px;
+    margin: 0 5px;
+    width: 4rem;
+  }
+  .button:hover {
+    background-color: #fc9494;
+    border-color: #601a1a;
+    border: 1px;
+  }
+  

@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  background-color: rgb(225, 245, 255);
+  background-image: url("C:\Users\Akash\Desktop\React\Akash\todo-react\src\components\assets\bg1.png");
+  height: 30vh;
+  /* width: 99%; */
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+.newtodo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+}
+
+.newtodo button{
+  background-color: rgb(153, 205, 250);
+  text-align: right;
+  font-size: 20px;
+  padding: 0.5rem 2rem;
+  border-radius: 15px;
+  border-color: rgb(8, 57, 77);
+}
+.newtodo h1{
+  color: rgb(8, 57, 77);
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 900;
+}

@@ -1,0 +1,48 @@
+.tasks_section{
+    padding: 1rem 5rem;
+    /* background-color: rgb(0, 0, 0); */
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 95%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+  .task {
+      padding: 1rem;
+      background-color: rgb(205, 231, 248);
+      margin: 2rem 2rem;
+      width: 30rem;
+      max-width: 95%;
+      height: fit-content;
+      /* display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; */
+  
+      /* border-radius: 12px;
+      box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25); */
+    }
+  
+  
+  .taskCount{
+    padding: 1rem 5rem;
+    background-color: rgb(205, 231, 248);
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+  }
+  .count{
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 1px solid rgb(3, 78, 113);
+    padding: 5px 1rem;
+    border-radius: 5px;
+    background-color: rgb(107, 186, 255);
+  }
+  
